@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Red+Hat+Display:wght@700&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+    height: 100vh;
+    position: relative;
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 38px 0;
+        align-items: center;
+
+        .logoname {
+            font-family: 'Red Hat Display';
+            font-size: 20px;
+        }
+
+        .menu {
+            width: 350px;
+            display: flex;
+            justify-content: center;
+
+            .menu-items {
+                display: flex;
+                width: 100%;
+                list-style: none;
+                justify-content: space-around;
+
+                .dropdown {
+                    display: flex;
+                    gap: 15px;
+
+
+                }
+            }
+        }
+
+        li {
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: manrope;
+                font-size: 14px;
+            }
+        }
+
+        .signup {
+            width: 250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                color: black;
+                font-family: manrope;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+            .menu-btn {
+                width: 137px;
+                height: 52px;
+                display: flex;
+                background: var(--Pallet-3-Primary, #4F46BA);
+                color: white;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    }
+    .content{
+        display: flex;
+        max-height: 82%;
+        // overflow: hidden;
+        .dotted-left{
+            
+        }
+    }
+}
+
+
+
+.text-decoration {
+    text-decoration: none;
+}
