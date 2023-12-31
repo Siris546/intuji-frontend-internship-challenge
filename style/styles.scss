@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.container {
+    background: #FAFBFF;
+}
+
 .section1 {
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     height: 55em;
@@ -184,7 +188,7 @@
                 width: 126.136px;
                 height: 113.988px;
                 right: -195px;
-                top:70px;
+                top: 70px;
                 flex-shrink: 0;
                 position: relative;
             }
@@ -199,6 +203,145 @@
             }
         }
     }
+}
+
+.clients {
+    background: #F5F6F8;
+    padding: 64px 0 77px 0;
+
+    .clients-text {
+        font-family: manrope;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .clients-logos {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 75px 155px;
+
+    .section-heading {
+        display: flex;
+        display: flex;
+        gap: 85px;
+
+        .heading h2 {
+            width: 646px;
+            padding: 0 40px 12px 0;
+            font-family: Manrope;
+            font-size: 56px;
+            font-weight: 800;
+        }
+
+        .heading p {
+            width: 449px;
+            font-family: Manrope;
+            font-weight: 500;
+        }
+
+        .testemonial {
+            width: 402px;
+            height: 205px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            // opacity: 0.3;
+            background: #c4c4c445;
+            position: relative;
+            padding: 38px 34px;
+
+            img {
+                position: relative;
+                bottom: 60px;
+                opacity: 1;
+            }
+
+            .quote-text {
+                margin-top: -36px;
+                opacity: 1;
+                font-family: Manrope;
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+            .quote-author {
+                margin-top: 22px;
+                opacity: 1;
+                font-family: Manrope;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .value-props {
+        display: flex;
+        width: 1200px;
+        margin-top: 75px;
+        gap: 30px;
+
+        .prop-card {
+            border-radius: 20px;
+            border: 1px solid #DBE4E9;
+            background: #FFF;
+            width: 380px;
+            height: 382px;
+            flex-shrink: 0;
+            padding: 1.3em;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+
+            .id {
+                color: #000;
+                font-family: Manrope;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 800;
+
+            }
+
+            img {
+                margin: 1.7em 1.5em 1em 1.5em;
+                width: 50px;
+                height: 45px;
+                flex-shrink: 0;
+                align-self: center;
+            }
+
+            h3 {
+                width: 276px;
+                color: #000;
+                text-align: center;
+                font-family: Manrope;
+                font-size: 30px;
+                font-weight: 800;
+                align-self: center;
+            }
+            .subtext{
+                align-self: center;
+                width: 270px;
+                color: #757095;
+text-align: center;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 185.714% */
+letter-spacing: -0.28px;
+            }
+        }
+    }
+
+
 }
 
 // utility classes

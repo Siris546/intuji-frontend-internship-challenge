@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  background: #FAFBFF;
+}
+
 .section1 {
   background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
   height: 55em;
@@ -166,6 +170,127 @@
   position: relative;
   right: -100px;
   top: 173px;
+}
+
+.clients {
+  background: #F5F6F8;
+  padding: 64px 0 77px 0;
+}
+.clients .clients-text {
+  font-family: manrope;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.clients .clients-logos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 75px 155px;
+}
+.section2 .section-heading {
+  display: flex;
+  display: flex;
+  gap: 85px;
+}
+.section2 .section-heading .heading h2 {
+  width: 646px;
+  padding: 0 40px 12px 0;
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 800;
+}
+.section2 .section-heading .heading p {
+  width: 449px;
+  font-family: Manrope;
+  font-weight: 500;
+}
+.section2 .section-heading .testemonial {
+  width: 402px;
+  height: 205px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(196, 196, 196, 0.2705882353);
+  position: relative;
+  padding: 38px 34px;
+}
+.section2 .section-heading .testemonial img {
+  position: relative;
+  bottom: 60px;
+  opacity: 1;
+}
+.section2 .section-heading .testemonial .quote-text {
+  margin-top: -36px;
+  opacity: 1;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+}
+.section2 .section-heading .testemonial .quote-author {
+  margin-top: 22px;
+  opacity: 1;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+}
+.section2 .value-props {
+  display: flex;
+  width: 1200px;
+  margin-top: 75px;
+  gap: 30px;
+}
+.section2 .value-props .prop-card {
+  border-radius: 20px;
+  border: 1px solid #DBE4E9;
+  background: #FFF;
+  width: 380px;
+  height: 382px;
+  flex-shrink: 0;
+  padding: 1.3em;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.section2 .value-props .prop-card .id {
+  color: #000;
+  font-family: Manrope;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+}
+.section2 .value-props .prop-card img {
+  margin: 1.7em 1.5em 1em 1.5em;
+  width: 50px;
+  height: 45px;
+  flex-shrink: 0;
+  align-self: center;
+}
+.section2 .value-props .prop-card h3 {
+  width: 276px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 800;
+  align-self: center;
+}
+.section2 .value-props .prop-card .subtext {
+  align-self: center;
+  width: 270px;
+  color: #757095;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: -0.28px;
 }
 
 .flex-vertcenter {
