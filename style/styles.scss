@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Red+Hat+Display:wght@700&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red Hat Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -24,7 +26,7 @@
 
         .logoname {
             font-family: 'Red Hat Display';
-            font-size: 20px;
+            font-size: 17px;
         }
 
         .menu {
@@ -53,6 +55,7 @@
                 color: black;
                 font-family: manrope;
                 font-size: 14px;
+                font-weight: 500;
             }
         }
 
@@ -67,6 +70,7 @@
                 font-family: manrope;
                 font-size: 14px;
                 text-decoration: none;
+                font-weight: 500;
             }
 
             .menu-btn {
@@ -91,19 +95,20 @@
         .dotted-left {
             display: flex;
             align-items: flex-end;
-            margin: 0 2em 3em 0;
+            margin: 0px 1em 0em 0;
         }
 
         .content-text {
             width: 40.375em;
-            padding: 1.1em;
+            padding: 1.1em 0;
 
             h1 {
                 width: 100%;
                 font-family: Manrope;
-                font-size: 3.3em;
+                font-size: 3.75em;
                 font-weight: 900;
                 margin-top: 1.1em;
+                letter-spacing: -1.8px;
             }
 
             .subtext {
@@ -113,6 +118,7 @@
                 color: #64607D;
                 font-weight: 500;
                 margin-top: 1.9em;
+                letter-spacing: -0.4px;
             }
 
             .content-btn {
@@ -127,6 +133,7 @@
                     padding: 0.9375em 2.375em;
                     font-family: Manrope;
                     border-radius: 2.9375em;
+                    letter-spacing: -0.32px;
                 }
 
                 .see-link {
@@ -135,6 +142,7 @@
                     color: var(--Pallet-4-Primary, #3734A9);
                     font-weight: 500;
                     gap: 11px;
+                    letter-spacing: -0.34px;
                 }
             }
 
@@ -149,12 +157,14 @@
                     color: #757095;
                     font-family: Manrope;
                     font-size: 17px;
+                    letter-spacing: -0.34px;
                 }
             }
         }
 
         .content-img {
             position: relative;
+            left: 11px;
 
             .lefthand {
                 position: absolute;
@@ -213,6 +223,7 @@
         font-family: manrope;
         font-size: 22px;
         text-align: center;
+        font-weight: 500;
         padding-bottom: 50px;
     }
 
@@ -220,6 +231,11 @@
         display: flex;
         justify-content: center;
         gap: 50px;
+
+        img {
+
+            object-fit: contain;
+        }
     }
 }
 
@@ -235,8 +251,8 @@
         gap: 85px;
 
         .heading h2 {
-            width: 646px;
-            padding: 0 40px 12px 0;
+            width: 606px;
+            padding: 0 45px 12px 0;
             font-family: Manrope;
             font-size: 56px;
             font-weight: 800;
@@ -270,6 +286,7 @@
                 font-family: Manrope;
                 font-size: 15px;
                 font-weight: 600;
+                letter-spacing: -0.3px;
             }
 
             .quote-author {
@@ -278,6 +295,7 @@
                 font-family: Manrope;
                 font-size: 15px;
                 font-weight: 600;
+                letter-spacing: -0.3px;
             }
         }
     }
@@ -325,18 +343,217 @@
                 font-size: 30px;
                 font-weight: 800;
                 align-self: center;
+                letter-spacing: -0.9px;
             }
-            .subtext{
+
+            .subtext {
                 align-self: center;
                 width: 270px;
                 color: #757095;
-text-align: center;
-font-family: Manrope;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 185.714% */
-letter-spacing: -0.28px;
+                text-align: center;
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px;
+                /* 185.714% */
+                letter-spacing: -0.28px;
+            }
+        }
+    }
+
+    .section-content {
+        position: relative;
+        display: flex;
+        padding-top: 90px;
+        gap: 160px;
+
+        .usercard {
+            width: 531px;
+            height: 500px;
+            flex-shrink: 0;
+            background-color: #dcf3fc;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            border-radius: 20px;
+            padding-top: 55px;
+
+            .paymentbox {
+                padding-left: 20px;
+                width: 433px;
+                height: 80px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: #FFF;
+                box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.03);
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                ;
+
+                img {
+                    object-fit: contain;
+                }
+
+                .payment {
+                    .amount {
+                        color: var(--Pallet-4-Primary, #3734A9);
+                        font-family: "Red Hat Display";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 700;
+                        border-radius: 30px;
+                        padding: 5px 14px;
+                        background: var(--Pallet-4-Primary, rgba(56, 52, 169, 0.21));
+                        width: fit-content;
+
+                    }
+
+                    .recieved-text {
+                        color: #757095;
+                        font-family: Manrope;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 30px;
+                        /* 214.286% */
+                        letter-spacing: -0.28px;
+                    }
+                }
+            }
+
+            #user1 {
+                position: relative;
+                left: 60px;
+            }
+
+            #user2 {
+                position: relative;
+                left: 164px;
+            }
+
+            #user3 {
+                position: relative;
+                left: 110px;
+            }
+
+            #user4 {
+                position: relative;
+                left: 40px;
+            }
+
+        }
+
+        .circlesvg {
+            position: absolute;
+            top: 73px;
+            right: 632px;
+        }
+
+        .content {
+            p {
+                color: #505887;
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                width: 446px;
+                letter-spacing: -0.36px;
+            }
+
+            .line {
+                width: 490px;
+                height: 2px;
+                flex-shrink: 0;
+                background: #C4C4C4;
+                margin: 23px 0;
+            }
+
+            .checkbox-yellow {
+                display: flex;
+                gap: 5px;
+                padding: 7px 0;
+            }
+        }
+    }
+
+    .section-content2 {
+        display: flex;
+        padding: 198px 0 96px 0;
+        position: relative;
+        justify-content: space-between;
+        width: 100%;
+
+        .content {
+            .testemonial {
+                width: 505px;
+                height: 165px;
+                border-radius: 20px;
+                background: rgba(196, 196, 196, 0.2705882353);
+                position: relative;
+                padding: 38px 34px;
+                margin-top: 56px;
+                
+
+                img {
+                    position: relative;
+                    bottom: 60px;
+                    opacity: 1;
+                }
+
+                .quote-text {
+                    margin-top: -36px;
+                    opacity: 1;
+                    font-family: Manrope;
+                    font-size: 15px;
+                    font-weight: 600;
+                    width: 100%;
+                    letter-spacing: -0.3px;
+                    color:#000;
+                }
+
+                .quote-author {
+                    margin-top: 22px;
+                    opacity: 1;
+                    font-family: Manrope;
+                    font-size: 15px;
+                    font-weight: 600;
+                    letter-spacing: -0.3px;
+                    color:#000;
+                }
+            }
+
+            p {
+                color: #505887;
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                width: 414px;
+                letter-spacing: -0.36px;
+            }
+        }
+
+        .graphics {
+            .stats {
+                position: absolute;
+            }
+
+            display: flex;
+
+            img {
+                position: relative;
+                left: 53px;
+                bottom: 165px;
+            }
+
+            .graphics-container {
+                width: 486px;
+                height: 540px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: #DBF1FA;
             }
         }
     }
@@ -353,4 +570,25 @@ letter-spacing: -0.28px;
 
 .text-decoration {
     text-decoration: none;
+}
+
+.section-heading-utility {
+    color: #000;
+    font-family: Manrope;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 20px 0;
+    width: 490px;
+    letter-spacing: -1.5px;
+}
+
+.why-choose-us {
+    color: var(--Pallet-4-Primary, #3734A9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
