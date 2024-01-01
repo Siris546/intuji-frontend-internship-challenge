@@ -459,14 +459,14 @@
 }
 .section2 .section-content2 .graphics {
   display: flex;
-}
-.section2 .section-content2 .graphics .stats {
-  position: absolute;
-}
-.section2 .section-content2 .graphics img {
+  width: 516px;
   position: relative;
-  left: 53px;
-  bottom: 165px;
+}
+.section2 .section-content2 .graphics .dash {
+  position: absolute;
+  left: -40px;
+  top: 45px;
+  z-index: 7;
 }
 .section2 .section-content2 .graphics .graphics-container {
   width: 486px;
@@ -474,6 +474,24 @@
   flex-shrink: 0;
   border-radius: 10px;
   background: #DBF1FA;
+  position: relative;
+}
+.section2 .section-content2 .graphics .graphics-container .stats {
+  position: absolute;
+  width: 337px;
+  height: 232.988px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 2.568px 4.366px 0px rgba(0, 0, 0, 0.01), 0px 11.3px 9.04px 0px rgba(0, 0, 0, 0.01), 0px 27.737px 18.029px 0px rgba(0, 0, 0, 0.01), 0px 53.419px 35.339px 0px rgba(0, 0, 0, 0.02), 0px 89.887px 64.976px 0px rgba(0, 0, 0, 0.02), 0px 138.683px 110.947px 0px rgba(0, 0, 0, 0.03);
+  z-index: 5;
+  bottom: 84px;
+  left: -86px;
+}
+.section2 .section-content2 .graphics .graphics-container .handright {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 .flex-vertcenter {
