@@ -243,7 +243,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 75px 155px;
+    padding: 95px 155px 0px 155px;
 
     .section-heading {
         display: flex;
@@ -407,6 +407,7 @@
                         padding: 5px 14px;
                         background: var(--Pallet-4-Primary, rgba(56, 52, 169, 0.21));
                         width: fit-content;
+                        width: -moz-fit-content;
 
                     }
 
@@ -566,6 +567,139 @@
                     z-index: 5;
                     bottom: 84px;
                     left: -86px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 23px 19px;
+
+                    .balance {
+                        .total-balance {
+                            color: #000;
+                            font-family: Manrope;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                        }
+
+                        .dollar-balance {
+                            color: #000;
+
+                            font-family: Manrope;
+                            font-size: 22.189px;
+                            font-style: normal;
+                            font-weight: 700;
+
+                            .growth {
+                                color: var(--Pallet-4-Secondary, #00E1F0);
+                                font-family: Manrope;
+                                font-size: 18.029px;
+                                font-style: normal;
+                                font-weight: 500;
+                            }
+                        }
+
+                    }
+
+                    .stat {
+
+                        display: flex;
+                        align-items: flex-end;
+
+                        .ks {
+                            display: flex;
+                            gap: 10px;
+                            flex-direction: column;
+                            padding-bottom: 15px;
+
+                            .k {
+                                color: var(--Text-Light, #718EBF);
+                                text-align: right;
+                                font-family: "Red Hat Display";
+                                font-size: 11.095px;
+                                font-style: normal;
+                                font-weight: 400;
+                            }
+                        }
+
+                        .statbox {
+                            width: 261px;
+                            height: 100px;
+                            background-color: #ffffff;
+                            display: flex;
+                            align-items: flex-end;
+                            padding-left: 6px;
+
+                            .days {
+                                color: var(--Text-Light, #718EBF);
+                                text-align: center;
+                                font-family: 'Red Hat Display';
+                                font-size: 11.095px;
+                                font-style: normal;
+                                font-weight: 400;
+                                width: 28px;
+                                margin: 0 3px;
+
+                                span {
+                                    border-radius: 4.16px 4.16px 0px 0px;
+                                    background: var(--Pallet-4-Grey, #E8F2FF);
+                                }
+
+                                .sun1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 16.5px;
+                                }
+
+                                .mon1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 24.963px;
+                                }
+
+                                .tue1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 58.247px;
+                                }
+
+                                .wed1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 42.992px;
+                                    background: var(--Pallet-4-Primary, #3734A9);
+                                }
+
+                                .thus1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 81.823px;
+                                    background: var(--Pallet-4-Primary, #3734A9);
+                                }
+
+                                .fri1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 16.642px;
+                                }
+
+                                .sat1 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 42.992px;
+                                }
+
+                                .sun2 {
+                                    display: inline-block;
+                                    width: 28px;
+                                    height: 63.794px;
+                                    background: var(--Pallet-4-Primary, #3734A9);
+
+                                }
+
+
+                            }
+                        }
+                    }
                 }
 
                 .handright {
@@ -578,6 +712,112 @@
     }
 
 
+}
+
+.feature {
+    padding: 146px 117px 137px 123px;
+    position: relative;
+    display: flex;
+    background: #C9E7F2;
+    .horizontaldash{
+        bottom: 95px;
+        left: 0;
+        position: absolute;
+    }
+    .feature-heading {
+
+        h2 {
+            color: #000;
+            font-family: Manrope;
+            font-size: 71px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 66px;
+            /* 92.958% */
+            letter-spacing: -2.13px;
+            padding-bottom: 37px;
+        }
+
+        p {
+            color: #000;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px;
+            /* 181.25% */
+            letter-spacing: -0.32px;
+            width: 557px;
+        }
+
+        .feature-container {
+            display: flex;
+            gap: 31px;
+            margin-top: 51px;
+            .feature-card {
+                width: 380px;
+                height: 338px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 1px solid #ABC8D2;
+                background: #FFF;
+                display: flex;
+                flex-direction: column;
+                padding: 43px 50.59px 43px 31px;
+                gap: 30px;
+
+                .orangefile {
+                    width: 55.28px;
+                    height: 45px;
+
+                }
+
+                h3 {
+                    color: #000;
+
+                    font-family: Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 35px;
+                    /* 159.091% */
+                    letter-spacing: -0.66px;
+                }
+
+                p {
+                    width: 299px;
+                }
+            }
+
+            .text-box {
+                width: 380px;
+                height: 338px;
+                display: flex;
+                flex-direction: column;
+                gap: 31px;
+
+                .rect-text {
+                    display: flex;
+                    background-color: #FFF;
+                    width: 380px;
+                    height: 153px;
+                    border-radius: 10px;
+                    border: 1px solid #ABC8D2;
+                    color: #000;
+                    font-family: Manrope;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 35px;
+                    /* 159.091% */
+                    letter-spacing: -0.66px;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+            }
+        }
+    }
 }
 
 // utility classes
