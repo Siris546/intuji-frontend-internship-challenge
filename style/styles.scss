@@ -14,23 +14,23 @@
 
 .section1 {
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
-    height: 55em;
+    height: 55rem;
     position: relative;
     overflow: hidden;
 
     .navbar {
         display: flex;
         justify-content: space-around;
-        padding: 38px 0;
+        padding: 2.375rem 0;
         align-items: center;
 
         .logoname {
             font-family: 'Red Hat Display';
-            font-size: 17px;
+            font-size: 1.0625rem;
         }
 
         .menu {
-            width: 350px;
+            width: 21.875rem;
             display: flex;
             justify-content: center;
 
@@ -42,7 +42,7 @@
 
                 .dropdown {
                     display: flex;
-                    gap: 15px;
+                    gap: 0.9375rem;
 
 
                 }
@@ -54,13 +54,13 @@
                 text-decoration: none;
                 color: black;
                 font-family: manrope;
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-weight: 500;
             }
         }
 
         .signup {
-            width: 250px;
+            width: 15.625rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -68,14 +68,14 @@
             a {
                 color: black;
                 font-family: manrope;
-                font-size: 14px;
+                font-size: 0.875rem;
                 text-decoration: none;
                 font-weight: 500;
             }
 
             .menu-btn {
-                width: 137px;
-                height: 52px;
+                width: 8.5625rem;
+                height: 3.25rem;
                 display: flex;
                 background: var(--Pallet-3-Primary, #4F46BA);
                 color: white;
@@ -95,68 +95,68 @@
         .dotted-left {
             display: flex;
             align-items: flex-end;
-            margin: 0px 1em 0em 0;
+            margin: 0rem 1rem 0rem 0px;
         }
 
         .content-text {
-            width: 40.375em;
-            padding: 1.1em 0;
+            width: 40.375rem;
+            padding: 1.1rem 0;
 
             h1 {
                 width: 100%;
                 font-family: Manrope;
-                font-size: 3.75em;
+                font-size: 3.75rem;
                 font-weight: 900;
-                margin-top: 1.1em;
+                margin-top: 5.8rem;
                 letter-spacing: -1.8px;
             }
 
             .subtext {
                 width: 80%;
                 font-family: Manrope;
-                font-size: 1.25em;
+                font-size: 1.25rem;
                 color: #64607D;
                 font-weight: 500;
-                margin-top: 1.9em;
-                letter-spacing: -0.4px;
+                margin-top: 1.9rem;
+                letter-spacing: -0.025rem;
             }
 
             .content-btn {
                 display: flex;
                 align-items: center;
-                margin: 4.5625em 0;
-                gap: 3em;
+                margin: 4.5625rem 0;
+                gap: 3rem;
 
                 .blue-btn {
                     color: white;
                     background-color: #3734A9;
-                    padding: 0.9375em 2.375em;
+                    padding: 0.9375rem 2.375rem;
                     font-family: Manrope;
-                    border-radius: 2.9375em;
+                    border-radius: 2.9375rem;
                     letter-spacing: -0.32px;
                 }
 
                 .see-link {
                     font-family: Manrope;
-                    font-size: 17px;
+                    font-size: 1.0625rem;
                     color: var(--Pallet-4-Primary, #3734A9);
                     font-weight: 500;
-                    gap: 11px;
+                    gap: 0.6875rem;
                     letter-spacing: -0.34px;
                 }
             }
 
             .checkboxes {
                 display: flex;
-                gap: 40px;
+                gap: 2.5rem;
 
                 p {
                     display: flex;
                     align-items: center;
-                    gap: 8px;
+                    gap: 0.5rem;
                     color: #757095;
                     font-family: Manrope;
-                    font-size: 17px;
+                    font-size: 1.0625rem;
                     letter-spacing: -0.34px;
                 }
             }
@@ -164,26 +164,26 @@
 
         .content-img {
             position: relative;
-            left: 11px;
+            left: 0.6875rem;
 
             .lefthand {
                 position: absolute;
-                top: 18px;
-                left: -75px;
+                top: 1.125rem;
+                left: -4.6875rem;
                 z-index: 10;
             }
 
             .dashsvg {
                 position: absolute;
-                top: 480px;
-                left: 161px;
+                top: 30rem;
+                left: 10.0625rem;
                 z-index: 5;
             }
 
             .righthand {
                 position: relative;
-                top: 190px;
-                left: 0px;
+                top: 11.875rem;
+                left: 0rem;
             }
 
         }
@@ -195,21 +195,21 @@
             position: relative;
 
             .crossright {
-                width: 126.136px;
-                height: 113.988px;
-                right: -195px;
-                top: 70px;
+                width: 7.8835rem;
+                height: 7.12425rem;
+                right: -12.1875rem;
+                top: 4.375rem;
                 flex-shrink: 0;
                 position: relative;
             }
 
             .bluefill {
-                width: 300.869px;
-                height: 218.359px;
+                width: 18.8043125rem;
+                height: 13.6474375rem;
                 flex-shrink: 0;
                 position: relative;
-                right: -100px;
-                top: 173px;
+                right: -6.25rem;
+                top: 10.8125rem;
             }
         }
     }
@@ -217,20 +217,20 @@
 
 .clients {
     background: #F5F6F8;
-    padding: 64px 0 77px 0;
+    padding: 4rem 0 4.8125rem 0;
 
     .clients-text {
         font-family: manrope;
-        font-size: 22px;
+        font-size: 1.375rem;
         text-align: center;
         font-weight: 500;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
     }
 
     .clients-logos {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 3.125rem;
 
         img {
 
@@ -243,57 +243,57 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 95px 155px 0px 155px;
+    padding: 5.9375rem 9.6875rem 0rem 9.6875rem;
 
     .section-heading {
         display: flex;
         display: flex;
-        gap: 85px;
+        gap: 5.3125rem;
 
         .heading h2 {
-            width: 606px;
-            padding: 0 45px 12px 0;
+            width: 42.875rem;
+            padding: 0 2.8125rem 0.75rem 0;
             font-family: Manrope;
-            font-size: 56px;
+            font-size: 3.5rem;
             font-weight: 800;
         }
 
         .heading p {
-            width: 449px;
+            width: 28.0625rem;
             font-family: Manrope;
             font-weight: 500;
         }
 
         .testemonial {
-            width: 402px;
-            height: 205px;
+            width: 25.125rem;
+            height: 12.8125rem;
             flex-shrink: 0;
-            border-radius: 20px;
+            border-radius: 1.25rem;
             // opacity: 0.3;
             background: #c4c4c445;
             position: relative;
-            padding: 38px 34px;
+            padding: 2.375rem 2.125rem;
 
             img {
                 position: relative;
-                bottom: 60px;
+                bottom: 3.75rem;
                 opacity: 1;
             }
 
             .quote-text {
-                margin-top: -36px;
+                margin-top: -2.25rem;
                 opacity: 1;
                 font-family: Manrope;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 font-weight: 600;
                 letter-spacing: -0.3px;
             }
 
             .quote-author {
-                margin-top: 22px;
+                margin-top: 1.375rem;
                 opacity: 1;
                 font-family: Manrope;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 font-weight: 600;
                 letter-spacing: -0.3px;
             }
@@ -302,45 +302,45 @@
 
     .value-props {
         display: flex;
-        width: 1200px;
-        margin-top: 75px;
-        gap: 30px;
+        width: 75rem;
+        margin-top: 4.6875rem;
+        gap: 1.875rem;
 
         .prop-card {
-            border-radius: 20px;
-            border: 1px solid #DBE4E9;
+            border-radius: 1.25rem;
+            border: 0.0625rem solid #DBE4E9;
             background: #FFF;
-            width: 380px;
-            height: 382px;
+            width: 23.75rem;
+            height: 23.875rem;
             flex-shrink: 0;
-            padding: 1.3em;
+            padding: 1.3rem;
             display: flex;
             flex-direction: column;
-            gap: 18px;
+            gap: 1.125rem;
 
             .id {
                 color: #000;
                 font-family: Manrope;
-                font-size: 22px;
+                font-size: 1.375rem;
                 font-style: normal;
                 font-weight: 800;
 
             }
 
             img {
-                margin: 1.7em 1.5em 1em 1.5em;
-                width: 50px;
-                height: 45px;
+                margin: 1.7rem 1.5rem 1rem 1.5rem;
+                width: 3.125rem;
+                height: 2.8125rem;
                 flex-shrink: 0;
                 align-self: center;
             }
 
             h3 {
-                width: 276px;
+                width: 17.25rem;
                 color: #000;
                 text-align: center;
                 font-family: Manrope;
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-weight: 800;
                 align-self: center;
                 letter-spacing: -0.9px;
@@ -348,14 +348,14 @@
 
             .subtext {
                 align-self: center;
-                width: 270px;
+                width: 16.875rem;
                 color: #757095;
                 text-align: center;
                 font-family: Manrope;
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 26px;
+                line-height: 1.625rem;
                 /* 185.714% */
                 letter-spacing: -0.28px;
             }
@@ -365,31 +365,31 @@
     .section-content {
         position: relative;
         display: flex;
-        padding-top: 90px;
-        gap: 160px;
+        padding-top: 5.625rem;
+        gap: 10rem;
 
         .usercard {
-            width: 531px;
-            height: 500px;
+            width: 33.1875rem;
+            height: 31.25rem;
             flex-shrink: 0;
             background-color: #dcf3fc;
             display: flex;
             flex-direction: column;
-            gap: 30px;
-            border-radius: 20px;
-            padding-top: 55px;
+            gap: 1.875rem;
+            border-radius: 1.25rem;
+            padding-top: 3.4375rem;
 
             .paymentbox {
-                padding-left: 20px;
-                width: 433px;
-                height: 80px;
+                padding-left: 1.25rem;
+                width: 27.0625rem;
+                height: 5rem;
                 flex-shrink: 0;
-                border-radius: 10px;
+                border-radius: 0.625rem;
                 background: #FFF;
-                box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.03);
+                box-shadow: 0rem 0.11575rem 0.19675rem 0rem rgba(0, 0, 0, 0.01), 0rem 0.50925rem 0.4074375rem 0rem rgba(0, 0, 0, 0.01), 0rem 1.25rem 0.8125rem 0rem rgba(0, 0, 0, 0.01), 0rem 2.4074375rem 1.5925625rem 0rem rgba(0, 0, 0, 0.02), 0rem 4.0509375rem 2.92825rem 0rem rgba(0, 0, 0, 0.02), 0rem 6.25rem 5rem 0rem rgba(0, 0, 0, 0.03);
                 display: flex;
                 align-items: center;
-                gap: 10px;
+                gap: 0.625rem;
                 ;
 
                 img {
@@ -400,11 +400,11 @@
                     .amount {
                         color: var(--Pallet-4-Primary, #3734A9);
                         font-family: "Red Hat Display";
-                        font-size: 15px;
+                        font-size: 0.9375rem;
                         font-style: normal;
                         font-weight: 700;
-                        border-radius: 30px;
-                        padding: 5px 14px;
+                        border-radius: 1.875rem;
+                        padding: 0.3125rem 0.875rem;
                         background: var(--Pallet-4-Primary, rgba(56, 52, 169, 0.21));
                         width: -moz-fit-content;
                         width: fit-content;
@@ -414,10 +414,10 @@
                     .recieved-text {
                         color: #757095;
                         font-family: Manrope;
-                        font-size: 14px;
+                        font-size: 0.875rem;
                         font-style: normal;
                         font-weight: 500;
-                        line-height: 30px;
+                        line-height: 1.875rem;
                         /* 214.286% */
                         letter-spacing: -0.28px;
                     }
@@ -426,88 +426,88 @@
 
             #user1 {
                 position: relative;
-                left: 60px;
+                left: 3.75rem;
             }
 
             #user2 {
                 position: relative;
-                left: 164px;
+                left: 10.25rem;
             }
 
             #user3 {
                 position: relative;
-                left: 110px;
+                left: 6.875rem;
             }
 
             #user4 {
                 position: relative;
-                left: 40px;
+                left: 2.5rem;
             }
 
         }
 
         .circlesvg {
             position: absolute;
-            top: 73px;
-            right: 632px;
+            top: 4.5625rem;
+            right: 39.5rem;
         }
 
         .content {
             p {
                 color: #505887;
                 font-family: Manrope;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-style: normal;
                 font-weight: 500;
-                width: 446px;
+                width: 27.875rem;
                 letter-spacing: -0.36px;
             }
 
             .line {
-                width: 490px;
-                height: 2px;
+                width: 30.625rem;
+                height: 0.125rem;
                 flex-shrink: 0;
                 background: #C4C4C4;
-                margin: 23px 0;
+                margin: 1.4375rem 0;
             }
 
             .checkbox-yellow {
                 display: flex;
-                gap: 5px;
-                padding: 7px 0;
+                gap: 0.3125rem;
+                padding: 0.7rem 0;
             }
         }
     }
 
     .section-content2 {
         display: flex;
-        padding: 198px 0 96px 0;
+        padding: 12.375rem 0 6rem 0;
         position: relative;
         justify-content: space-between;
         width: 100%;
 
         .content {
             .testemonial {
-                width: 505px;
-                height: 165px;
-                border-radius: 20px;
+                width: 31.5625rem;
+                height: 10.3125rem;
+                border-radius: 1.25rem;
                 background: rgba(196, 196, 196, 0.2705882353);
                 position: relative;
-                padding: 38px 34px;
-                margin-top: 56px;
+                padding: 2.375rem 2.125rem;
+                margin-top: 3.5rem;
 
 
                 img {
                     position: relative;
-                    bottom: 60px;
+                    bottom: 3.75rem;
                     opacity: 1;
                 }
 
                 .quote-text {
-                    margin-top: -36px;
+                    margin-top: -2.25rem;
                     opacity: 1;
                     font-family: Manrope;
-                    font-size: 15px;
+                    font-size: 0.9375rem;
                     font-weight: 600;
                     width: 100%;
                     letter-spacing: -0.3px;
@@ -515,10 +515,10 @@
                 }
 
                 .quote-author {
-                    margin-top: 22px;
+                    margin-top: 1.375rem;
                     opacity: 1;
                     font-family: Manrope;
-                    font-size: 15px;
+                    font-size: 0.9375rem;
                     font-weight: 600;
                     letter-spacing: -0.3px;
                     color: #000;
@@ -528,55 +528,55 @@
             p {
                 color: #505887;
                 font-family: Manrope;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-style: normal;
                 font-weight: 500;
-                width: 414px;
+                width: 25.875rem;
                 letter-spacing: -0.36px;
             }
         }
 
         .graphics {
             display: flex;
-            width: 516px;
+            width: 32.25rem;
             position: relative;
 
             .dash {
                 position: absolute;
-                left: -40px;
-                top: 45px;
+                left: -2.5rem;
+                top: 2.8125rem;
                 z-index: 7;
             }
 
             .graphics-container {
-                width: 486px;
-                height: 540px;
+                width: 30.375rem;
+                height: 33.75rem;
                 flex-shrink: 0;
-                border-radius: 10px;
+                border-radius: 0.625rem;
                 background: #DBF1FA;
                 position: relative;
 
                 .stats {
                     position: absolute;
-                    width: 337px;
-                    height: 232.988px;
+                    width: 21.0625rem;
+                    height: 14.56175rem;
                     flex-shrink: 0;
-                    border-radius: 10px;
+                    border-radius: 0.625rem;
                     background: #FFF;
-                    box-shadow: 0px 2.568px 4.366px 0px rgba(0, 0, 0, 0.01), 0px 11.3px 9.04px 0px rgba(0, 0, 0, 0.01), 0px 27.737px 18.029px 0px rgba(0, 0, 0, 0.01), 0px 53.419px 35.339px 0px rgba(0, 0, 0, 0.02), 0px 89.887px 64.976px 0px rgba(0, 0, 0, 0.02), 0px 138.683px 110.947px 0px rgba(0, 0, 0, 0.03);
+                    box-shadow: 0rem 0.1605rem 0.272875rem 0rem rgba(0, 0, 0, 0.01), 0rem 0.70625rem 0.565rem 0rem rgba(0, 0, 0, 0.01), 0rem 1.7335625rem 1.1268125rem 0rem rgba(0, 0, 0, 0.01), 0rem 3.3386875rem 2.2086875rem 0rem rgba(0, 0, 0, 0.02), 0rem 5.6179375rem 4.061rem 0rem rgba(0, 0, 0, 0.02), 0rem 8.6676875rem 6.9341875rem 0rem rgba(0, 0, 0, 0.03);
                     z-index: 5;
-                    bottom: 84px;
-                    left: -86px;
+                    bottom: 5.25rem;
+                    left: -5.375rem;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    padding: 23px 19px;
+                    padding: 1.4375rem 1.1875rem;
 
                     .balance {
                         .total-balance {
                             color: #000;
                             font-family: Manrope;
-                            font-size: 20px;
+                            font-size: 1.25rem;
                             font-style: normal;
                             font-weight: 500;
                         }
@@ -585,14 +585,14 @@
                             color: #000;
 
                             font-family: Manrope;
-                            font-size: 22.189px;
+                            font-size: 1.3868125rem;
                             font-style: normal;
                             font-weight: 700;
 
                             .growth {
                                 color: var(--Pallet-4-Secondary, #00E1F0);
                                 font-family: Manrope;
-                                font-size: 18.029px;
+                                font-size: 1.125rem;
                                 font-style: normal;
                                 font-weight: 500;
                             }
@@ -607,91 +607,91 @@
 
                         .ks {
                             display: flex;
-                            gap: 10px;
+                            gap: 0.625rem;
                             flex-direction: column;
-                            padding-bottom: 15px;
+                            padding-bottom: 0.9375rem;
 
                             .k {
                                 color: var(--Text-Light, #718EBF);
                                 text-align: right;
                                 font-family: "Red Hat Display";
-                                font-size: 11.095px;
+                                font-size: 0.6934375rem;
                                 font-style: normal;
                                 font-weight: 400;
                             }
                         }
 
                         .statbox {
-                            width: 261px;
-                            height: 100px;
+                            width: 16.3125rem;
+                            height: 6.25rem;
                             background-color: #ffffff;
                             display: flex;
                             align-items: flex-end;
-                            padding-left: 6px;
+                            padding-left: 0.375rem;
 
                             .days {
                                 color: var(--Text-Light, #718EBF);
                                 text-align: center;
                                 font-family: 'Red Hat Display';
-                                font-size: 11.095px;
+                                font-size: 0.6934375rem;
                                 font-style: normal;
                                 font-weight: 400;
-                                width: 28px;
-                                margin: 0 3px;
+                                width: 1.75rem;
+                                margin: 0 0.1875rem;
 
                                 span {
-                                    border-radius: 4.16px 4.16px 0px 0px;
+                                    border-radius: 0.26rem 0.26rem 0rem 0;
                                     background: var(--Pallet-4-Grey, #E8F2FF);
                                 }
 
                                 .sun1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 16.5px;
+                                    width: 1.75rem;
+                                    height: 1.03125rem;
                                 }
 
                                 .mon1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 24.963px;
+                                    width: 1.75rem;
+                                    height: 1.5601875rem;
                                 }
 
                                 .tue1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 58.247px;
+                                    width: 1.75rem;
+                                    height: 3.6404375rem;
                                 }
 
                                 .wed1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 42.992px;
+                                    width: 1.75rem;
+                                    height: 2.687rem;
                                     background: var(--Pallet-4-Primary, #3734A9);
                                 }
 
                                 .thus1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 81.823px;
+                                    width: 1.75rem;
+                                    height: 5.1139375rem;
                                     background: var(--Pallet-4-Primary, #3734A9);
                                 }
 
                                 .fri1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 16.642px;
+                                    width: 1.75rem;
+                                    height: 1.040125rem;
                                 }
 
                                 .sat1 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 42.992px;
+                                    width: 1.75rem;
+                                    height: 2.6875rem;
                                 }
 
                                 .sun2 {
                                     display: inline-block;
-                                    width: 28px;
-                                    height: 63.794px;
+                                    width: 1.75rem;
+                                    height: 3.987125rem;
                                     background: var(--Pallet-4-Primary, #3734A9);
 
                                 }
@@ -704,8 +704,8 @@
 
                 .handright {
                     position: absolute;
-                    bottom: 0px;
-                    left: 0px;
+                    bottom: 0;
+                    left: 0;
                 }
             }
         }
@@ -715,13 +715,13 @@
 }
 
 .feature {
-    padding: 146px 117px 137px 123px;
+    padding: 9.125rem 7.3125rem 8.5625rem 7.6875rem;
     position: relative;
     display: flex;
     background: #C9E7F2;
 
     .horizontaldash {
-        bottom: 95px;
+        bottom: 5.9375rem;
         left: 0;
         position: absolute;
     }
@@ -731,47 +731,46 @@
         h2 {
             color: #000;
             font-family: Manrope;
-            font-size: 71px;
+            font-size: 4.4375rem;
             font-style: normal;
             font-weight: 800;
-            line-height: 66px;
             /* 92.958% */
             letter-spacing: -2.13px;
-            padding-bottom: 37px;
+            padding-bottom: 2.3125rem;
         }
 
         p {
             color: #000;
             font-family: Manrope;
-            font-size: 16px;
+            font-size: 1rem;
             font-style: normal;
             font-weight: 500;
-            line-height: 29px;
+            line-height: 1.8125rem;
             /* 181.25% */
             letter-spacing: -0.32px;
-            width: 557px;
+            width: 34.8125rem;
         }
 
         .feature-container {
             display: flex;
-            gap: 31px;
-            margin-top: 51px;
+            gap: 1.9375rem;
+            margin-top: 3.1875rem;
 
             .feature-card {
-                width: 380px;
-                height: 338px;
+                width: 23.75rem;
+                height: 21.125rem;
                 flex-shrink: 0;
-                border-radius: 10px;
-                border: 1px solid #ABC8D2;
+                border-radius: 0.625rem;
+                border: 0.0625rem solid #ABC8D2;
                 background: #FFF;
                 display: flex;
                 flex-direction: column;
-                padding: 43px 50.59px 43px 31px;
-                gap: 30px;
+                padding: 2.6875rem 3.161875rem 2.6875rem 1.9375rem;
+                gap: 1.875rem;
 
                 .orangefile {
-                    width: 55.28px;
-                    height: 45px;
+                    width: 3.455rem;
+                    height: 2.8125rem;
 
                 }
 
@@ -779,39 +778,41 @@
                     color: #000;
 
                     font-family: Manrope;
-                    font-size: 22px;
+                    font-size: 1.375rem;
                     font-style: normal;
                     font-weight: 800;
-                    line-height: 35px;
+                    line-height: 2.1875rem;
                     /* 159.091% */
                     letter-spacing: -0.66px;
                 }
 
                 p {
-                    width: 299px;
+                    width: 18.6875rem;
                 }
             }
 
             .text-box {
-                width: 380px;
-                height: 338px;
+                width: 23.75rem;
+                height: 21.125rem;
                 display: flex;
                 flex-direction: column;
-                gap: 31px;
+                gap: 1.9375rem;
 
                 .rect-text {
                     display: flex;
                     background-color: #FFF;
-                    width: 380px;
-                    height: 153px;
-                    border-radius: 10px;
-                    border: 1px solid #ABC8D2;
+                    width: 23.75rem;
+                    padding: 0.5rem;
+                    text-align: center;
+                    height: 9.5625rem;
+                    border-radius: 0.625rem;
+                    border: 0.0625rem solid #ABC8D2;
                     color: #000;
                     font-family: Manrope;
-                    font-size: 22px;
+                    font-size: 1.375rem;
                     font-style: normal;
                     font-weight: 800;
-                    line-height: 35px;
+                    line-height: 2.1875rem;
                     /* 159.091% */
                     letter-spacing: -0.66px;
                     justify-content: center;
@@ -825,38 +826,38 @@
 
 #testimonial {
     overflow: hidden;
-    padding: 150px 0 150px 119px;
+    padding: 9.375rem 0 9.375rem 7.4375rem;
     position: relative;
 
     .testimonial-heading {
-        margin-bottom: 74px;
+        margin-bottom: 4.625rem;
 
         h2 {
             color: #000;
             font-family: Manrope;
-            font-size: 71px;
+            font-size: 4.4375rem;
             font-style: normal;
             font-weight: 800;
             letter-spacing: -2.13px;
-            margin-bottom: 37px;
+            margin-bottom: 2.3125rem;
         }
 
         p {
-            width: 570px;
+            width: 35.625rem;
             color: #000;
             font-family: Manrope;
-            font-size: 16px;
+            font-size: 1rem;
             font-style: normal;
             font-weight: 500;
-            line-height: 29px;
+            line-height: 1.8125rem;
             /* 181.25% */
             letter-spacing: -0.32px;
         }
 
         .swingsvg {
             position: absolute;
-            top: 215px;
-            right: 128px;
+            top: 13.4375rem;
+            right: 8rem;
         }
     }
 
@@ -867,60 +868,60 @@
 
     .boy {
         position: relative;
-        left: 79px;
+        left: 4.9375rem;
     }
 
     .testimonial-card {
         display: flex;
         position: relative;
-        width: 699px;
-        height: 400px;
-        border-radius: 10px;
-        border: 1px solid #CFCFCF;
+        width: 43.6875rem;
+        height: 25rem;
+        border-radius: 0.625rem;
+        border: 0.0625rem solid #CFCFCF;
         background: #FFF;
         align-items: center;
         justify-content: center;
 
         .quoteicon {
             position: absolute;
-            top: -24px;
-            left: 43px;
+            top: -1.5rem;
+            left: 2.6875rem;
         }
 
         .testimonial-text {
             h4 {
-                width: 368px;
+                width: 23rem;
                 color: #000;
                 font-family: Manrope;
-                font-size: 25px;
+                font-size: 1.5625rem;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 36px;
+                line-height: 2.25rem;
                 /* 144% */
                 letter-spacing: -0.5px;
-                padding-right: 26px;
+                padding-right: 1.625rem;
             }
 
             p {
                 color: #000;
                 font-family: Manrope;
-                font-size: 20px;
+                font-size: 1.25rem;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 22px;
+                line-height: 1.375rem;
                 /* 110% */
                 letter-spacing: -0.4px;
-                margin-top: 41px;
+                margin-top: 2.5625rem;
             }
         }
 
         .girltestimonial {
             -o-object-fit: contain;
             object-fit: contain;
-            width: 240px;
-            height: 350px;
+            width: 15rem;
+            height: 21.875rem;
             position: relative;
-            left: 18px;
+            left: 1.125rem;
         }
 
     }
@@ -933,46 +934,46 @@
 
     .stats-text {
         text-align: right;
-        width: 143px;
+        width: 8.9375rem;
         color: #FFF;
         font-family: Manrope;
-        font-size: 19px;
+        font-size: 1.1875rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 31px;
+        line-height: 1.9375rem;
         /* 163.158% */
-        margin: 82px 35px 81px 149px;
+        margin: 5.125rem 2.1875rem 5.0625rem 9.3125rem;
         letter-spacing: -0.38px;
     }
 
     .statistics {
         display: flex;
         align-items: center;
-        gap: 93px;
-        padding-left: 70px;
-        border-left: 2px solid #3D3D3D;
+        gap: 5.8125rem;
+        padding-left: 4.375rem;
+        border-left: 0.125rem solid #3D3D3D;
         ;
 
         .users {
             .m {
                 color: #FFF;
                 font-family: Manrope;
-                font-size: 72px;
+                font-size: 4.5rem;
                 font-style: normal;
                 font-weight: 800;
-                line-height: 72px;
+                line-height: 4.5rem;
                 /* 100% */
                 letter-spacing: -1.44px;
             }
 
             .active-users {
-                margin-top: 21px;
+                margin-top: 1.3125rem;
                 color: #FFF;
                 font-family: Manrope;
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 31px;
+                line-height: 1.9375rem;
                 /* 103.333% */
                 letter-spacing: -0.6px;
             }
@@ -980,24 +981,24 @@
 
         .weirdshape {
             position: relative;
-            left: 136px;
+            left: 8.5rem;
         }
     }
 }
 
 .blogs {
-    margin: 149px 118px 150px 119px;
+    margin: 9.3125rem 7.375rem 9.375rem 7.4375rem;
 
     .recent-blogs {
         color: #000;
         font-family: Manrope;
-        font-size: 71px;
+        font-size: 4.4375rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 66px;
+        line-height: 4.125rem;
         /* 92.958% */
         letter-spacing: -2.13px;
-        margin-bottom: 72px;
+        margin-bottom: 4.5rem;
     }
 
     .blog-banner {
@@ -1008,26 +1009,26 @@
         .banner-text {
             color: #000;
             font-family: Manrope;
-            font-size: 16px;
+            font-size: 1rem;
             font-style: normal;
             font-weight: 700;
-            line-height: 36px;
+            line-height: 2.25rem;
             /* 225% */
-            letter-spacing: 1.12px;
-            padding: 34px 28px;
+            letter-spacing: 1.0.75rem;
+            padding: 2.125rem 1.75rem;
 
             .title {
-                font-size: 29px;
+                font-size: 1.8125rem;
                 font-weight: 700;
                 letter-spacing: -0.58px;
-                width: 524px;
-                margin: 10px 0 58px 0;
+                width: 32.75rem;
+                margin: 0.625rem 0 3.625rem 0;
             }
 
             a {
                 color: var(--Pallet-1-Dark, #1B1C31);
                 font-family: Manrope;
-                font-size: 16px;
+                font-size: 1rem;
                 font-style: normal;
                 font-weight: 600;
             }
@@ -1036,42 +1037,42 @@
         }
 
         .banner-img {
-            width: 499px;
-            height: 285px;
-            border-radius: 0px 10px 10px 0;
+            width: 31.1875rem;
+            height: 17.8125rem;
+            border-radius: 0rem 0.625rem 0.625rem 0;
         }
     }
 
     .blog-container {
         display: flex;
-        padding-top: 29px;
+        padding-top: 1.8125rem;
         justify-content: space-between;
 
         .blog-cards {
             color: #000;
             font-family: Manrope;
-            font-size: 16px;
+            font-size: 1rem;
             font-style: normal;
             font-weight: 700;
             letter-spacing: 1.12px;
-            width: 382px;
-            height: 443px;
+            width: 23.875rem;
+            height: 30.3rem;
             background-color: #FFF;
-            padding-top: 32px;
+            padding-top: 2rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
             p {
-                padding-left: 32px;
+                padding-left: 2rem;
             }
 
             .title {
-                font-size: 29px;
+                font-size: 1.8125rem;
                 font-weight: 700;
-                letter-spacing: -0.58px;
-                width: 340px;
-                margin: 10px 0 58px 0;
+                letter-spacing: -0.3.625rem;
+                width: 21.25rem;
+                margin: 0.625rem 0 3.625rem 0;
             }
         }
     }
@@ -1084,7 +1085,7 @@
     .swirl-container {
         img {
             position: relative;
-            top: 100px;
+            top: 6.25rem;
         }
     }
 
@@ -1095,13 +1096,13 @@
         .faq-part {
             color: #000;
             font-family: Manrope;
-            width: 1210px;
+            width: 75.625rem;
 
             .faq-heading {
-                font-size: 71px;
+                font-size: 4.4375rem;
                 font-style: normal;
                 font-weight: 800;
-                line-height: 76px;
+                line-height: 4.75rem;
                 /* 107.042% */
                 letter-spacing: -2.13px;
             }
@@ -1109,32 +1110,32 @@
             .uniter {
                 display: flex;
                 align-items: flex-start;
-                gap: 50px;
-                margin-top: 72px;
+                gap: 3.125rem;
+                margin-top: 4.5rem;
 
                 .faq-container {
                     display: flex;
                     flex-direction: column;
-                    gap: 20px;
+                    gap: 1.25rem;
 
                     .faq-card {
-                        width: 751px;
-                        padding: 25px 23px;
-                        border-radius: 10px;
-                        border: 1px solid #CFCFCF;
+                        width: 46.9375rem;
+                        padding: 1.5625rem 1.4375rem;
+                        border-radius: 0.625rem;
+                        border: 0.0625rem solid #CFCFCF;
                         background: #FFF;
 
                         .faq-question {
                             display: flex;
-                            gap: 90px;
+                            gap: 5.625rem;
 
                             p {
                                 color: #000;
                                 font-family: Manrope;
-                                font-size: 22px;
+                                font-size: 1.375rem;
                                 font-style: normal;
                                 font-weight: 800;
-                                line-height: 22px;
+                                line-height: 1.375rem;
                                 /* 100% */
 
                             }
@@ -1145,53 +1146,53 @@
         }
 
         .email {
-            width: 401px;
-            height: 461px;
+            width: 25.0625rem;
+            height: 28.8125rem;
             flex-shrink: 0;
-            border-radius: 10px;
-            border: 1px solid #CFCFCF;
+            border-radius: 0.625rem;
+            border: 0.0625rem solid #CFCFCF;
             background: #FFF;
             text-align: center;
 
             img {
-                width: 67px;
-                height: 63px;
-                margin: 45px 0;
+                width: 4.1875rem;
+                height: 3.9375rem;
+                margin: 2.8125rem 0;
             }
 
             .more-question {
                 color: #000;
                 font-family: Manrope;
-                font-size: 22px;
+                font-size: 1.375rem;
                 font-style: normal;
                 font-weight: 800;
-                line-height: 22px;
+                line-height: 1.375rem;
                 /* 100% */
             }
 
             .solution {
-                width: 333px;
+                width: 20.8125rem;
                 color: #000;
                 text-align: center;
                 font-family: Manrope;
-                font-size: 16px;
+                font-size: 1rem;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 31px;
+                line-height: 1.9375rem;
                 /* 193.75% */
                 letter-spacing: -0.32px;
-                margin: 23px auto;
+                margin: 1.4375rem auto;
             }
 
             .btn {
-                margin: 32px;
+                margin: 2rem;
                 width: 85%;
-                height: 76px;
+                height: 4.75rem;
                 color: #FFF;
                 cursor: pointer;
                 text-align: center;
                 font-family: Manrope;
-                font-size: 16px;
+                font-size: 1rem;
                 font-style: normal;
                 font-weight: 600;
                 background: var(--Pallet-4-Accent, #FF7F5C);
@@ -1203,55 +1204,55 @@
     .star-container {
         img {
             position: relative;
-            bottom: 40px;
+            bottom: 2.5rem;
         }
     }
 }
 
 footer {
-    padding: 150px 75px 0 75px;
+    padding: 9.375rem 4.6875rem 0 4.6875rem;
 
     .footer-banner {
         margin: auto;
         text-align: center;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         background: var(--Pallet-4-Primary, #3734A9);
-        width: 1200px;
-        height: 438px;
+        width: 75rem;
+        height: 27.375rem;
         flex-shrink: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
         h2 {
-            width: 763px;
+            width: 47.6875rem;
             color: #FFF;
             text-align: center;
             font-family: Manrope;
-            font-size: 56px;
+            font-size: 3.5rem;
             font-style: normal;
             font-weight: 800;
-            line-height: 61px;
+            line-height: 3.8125rem;
             /* 108.929% */
             letter-spacing: -1.68px;
-            margin: 50px auto;
+            margin: 3.125rem auto;
         }
 
         .cta {
             button {
-                width: 223px;
-                height: 67px;
+                width: 13.9375rem;
+                height: 4.1875rem;
                 flex-shrink: 0;
-                border-radius: 10px;
+                border-radius: 0.625rem;
                 background: var(--Pallet-4-Accent, #FF7F5C);
                 border: 0;
                 color: #FFF;
                 text-align: center;
                 font-family: Manrope;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 30px;
+                line-height: 1.875rem;
                 /* 166.667% */
                 letter-spacing: -0.36px;
             }
@@ -1259,44 +1260,46 @@ footer {
     }
 
     .footer-menu {
-        width: 1202px;
-        height: 285px;
+        width: 75.125rem;
+        height: 17.8125rem;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        margin-top: 150px;
+        margin-top: 9.375rem;
+
         .intro {
             display: flex;
             flex-direction: column;
-            gap: 18px;
+            gap: 1.125rem;
+
             .company-name {
                 a {
                     color: var(--Pallet-1-Dark, #1B1C31);
                     font-family: 'Red Hat Display';
-                    font-size: 21px;
+                    font-size: 1.3125rem;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 28px;
+                    line-height: 1.75rem;
                     /* 133.333% */
                     letter-spacing: -0.42px;
                 }
             }
 
             .tagline {
-                width: 213px;
+                width: 13.3125rem;
                 color: #757095;
                 font-family: Manrope;
-                font-size: 16px;
+                font-size: 1rem;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 28px;
+                line-height: 1.75rem;
                 /* 175% */
-                letter-spacing: -0.32px;
+                letter-spacing: -0.02rem;
             }
 
             .connect {
-                img{
-                    padding-right: 10px;
+                img {
+                    padding-right: 0.625rem;
                 }
             }
         }
@@ -1304,31 +1307,33 @@ footer {
         .menu {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 1.5rem;
+
             .menu-name {
                 color: #181433;
                 font-family: Manrope;
-                font-size: 21px;
+                font-size: 1.3125rem;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 24px;
+                line-height: 1.5rem;
                 /* 114.286% */
             }
 
             ul {
                 display: flex;
                 flex-direction: column;
-                gap: 18px;
+                gap: 1.125rem;
                 list-style: none;
-                li{
+
+                li {
                     a {
                         text-decoration: none;
                         color: #181433;
                         font-family: Manrope;
-                        font-size: 16px;
+                        font-size: 1rem;
                         font-style: normal;
                         font-weight: 500;
-                        line-height: 24px;
+                        line-height: 1.5rem;
                         /* 150% */
                     }
                 }
@@ -1338,63 +1343,67 @@ footer {
         .resources {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 1.5rem;
+
             .resource {
                 color: #181433;
                 font-family: Manrope;
-                font-size: 21px;
+                font-size: 1.3125rem;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 24px;
+                line-height: 1.5rem;
                 /* 114.286% */
             }
 
-            ul{
+            ul {
                 display: flex;
-            flex-direction: column;
-            gap: 5px;
+                flex-direction: column;
+                gap: 0.3125rem;
+
                 li {
                     list-style: none;
-                    
+
                     a {
                         text-decoration: none;
                         color: #181433;
                         font-family: Manrope;
-                        font-size: 16px;
+                        font-size: 1rem;
                         font-style: normal;
                         font-weight: 500;
-                        line-height: 24px;
+                        line-height: 1.5rem;
                     }
                 }
-            } 
+            }
         }
 
         .newsletter {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 1.5rem;
+
             .join {
                 color: #181433;
                 font-family: Manrope;
-                font-size: 21px;
+                font-size: 1.3125rem;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 24px;
+                line-height: 1.5rem;
                 /* 114.286% */
             }
 
             .subscribe {
-                width: 389px;
+                width: 24.3125rem;
+
                 input {
-                    height: 52px;
+                    height: 3.25rem;
                     flex-shrink: 0;
                     background: #EEF;
                     color: #181433;
                     font-family: Manrope;
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-style: normal;
                     font-weight: 500;
-                    line-height: 26px;
+                    line-height: 1.625rem;
                     /* 162.5% */
                     letter-spacing: -0.32px;
                     border: 0;
@@ -1402,16 +1411,16 @@ footer {
 
                 button {
                     border: 0;
-                    width: 149px;
-                    height: 52px;
+                    width: 9.3125rem;
+                    height: 3.25rem;
                     flex-shrink: 0;
                     background: var(--Pallet-4-Primary, #3734A9);
                     color: #FFF;
                     font-family: Manrope;
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-style: normal;
                     font-weight: 500;
-                    line-height: 26px;
+                    line-height: 1.625rem;
                     /* 162.5% */
                     letter-spacing: -0.32px;
                 }
@@ -1420,35 +1429,36 @@ footer {
             .updates {
                 color: #181433;
                 font-family: Manrope;
-                font-size: 16px;
+                font-size: 1rem;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 26px;
-                width:327px;
+                line-height: 1.625rem;
+                width: 20.4375rem;
                 letter-spacing: -0.32px;
                 opacity: 0.5;
             }
         }
     }
 
-    .divider{
-        width: 1200px;
-height: 2px;
-flex-shrink: 0;
-background: #E5E5EA;
-margin: auto;
+    .divider {
+        width: 75rem;
+        height: 0.125rem;
+        flex-shrink: 0;
+        background: #E5E5EA;
+        margin: auto;
     }
 
-    .copyright{
+    .copyright {
         color: #181433;
-text-align: center;
-font-family: Manrope;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-letter-spacing: -0.32px;
-margin:50px auto;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.625rem;
+        /* 162.5% */
+        letter-spacing: -0.32px;
+        margin: 3.125rem auto;
     }
 }
 
@@ -1465,31 +1475,32 @@ margin:50px auto;
 .section-heading-utility {
     color: #000;
     font-family: Manrope;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-style: normal;
     font-weight: 800;
-    padding: 20px 0;
-    width: 490px;
+    padding: 0.6rem 0;
+    width: 30.625rem;
     letter-spacing: -1.5px;
 }
 
 .why-choose-us {
     color: var(--Pallet-4-Primary, #3734A9);
     font-family: Manrope;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
 }
+
 ::placeholder {
     opacity: 0.2;
     color: #181433;
     font-family: Manrope;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.625rem;
     /* 162.5% */
     letter-spacing: -0.32px;
     border: 0;
