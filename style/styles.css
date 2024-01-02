@@ -9,6 +9,7 @@
 
 .container {
   background: #FAFBFF;
+  overflow: hidden;
 }
 
 .section1 {
@@ -1300,4 +1301,10 @@ footer .copyright {
   /* 162.5% */
   letter-spacing: -0.32px;
   border: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container {
+    background-color: red;
+  }
 }/*# sourceMappingURL=styles.css.map */
