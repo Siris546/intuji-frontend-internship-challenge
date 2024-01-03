@@ -31,6 +31,10 @@
         .logoname {
             font-family: 'Red Hat Display';
             font-size: 1.0625rem;
+            cursor: pointer;
+            a{
+                color: #000;
+            }
         }
 
         .menu {
@@ -103,6 +107,12 @@
                     display: none;
                     max-height: 0;
                     transition: max-height 0.3s ease-out;
+                }
+                .icon-flipped {
+                    -moz-transform: scaleX(-1);
+                    -webkit-transform: scaleX(-1);
+                    -ms-transform: scaleX(-1);
+                    transform: scaleY(-1);
                 }
             }
         }
@@ -932,6 +942,9 @@
             position: absolute;
             top: 13.4375rem;
             right: 8rem;
+        }
+        .blink{
+            visibility: hidden;
         }
     }
 

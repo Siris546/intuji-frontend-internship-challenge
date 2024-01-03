@@ -27,6 +27,10 @@
 .section1 .navbar .logoname {
   font-family: "Red Hat Display";
   font-size: 1.0625rem;
+  cursor: pointer;
+}
+.section1 .navbar .logoname a {
+  color: #000;
 }
 .section1 .navbar .menu {
   width: 21.875rem;
@@ -91,6 +95,9 @@
   display: none;
   max-height: 0;
   transition: max-height 0.3s ease-out;
+}
+.section1 .navbar .menu .menu-items .icon-flipped {
+  transform: scaleY(-1);
 }
 .section1 .navbar li a {
   text-decoration: none;
@@ -792,6 +799,9 @@
   position: absolute;
   top: 13.4375rem;
   right: 8rem;
+}
+#testimonial .testimonial-heading .blink {
+  visibility: hidden;
 }
 #testimonial .testimonial-container {
   display: flex;
