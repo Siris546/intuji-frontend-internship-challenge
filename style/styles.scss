@@ -32,7 +32,8 @@
             font-family: 'Red Hat Display';
             font-size: 1.0625rem;
             cursor: pointer;
-            a{
+
+            a {
                 color: #000;
             }
         }
@@ -48,11 +49,13 @@
                 width: 100%;
                 list-style: none;
                 justify-content: space-around;
-                > li{
-                    :hover{
+
+                >li {
+                    :hover {
                         color: blue;
                     }
                 }
+
                 .dropdown {
                     display: flex;
                     gap: 0.9375rem;
@@ -98,16 +101,19 @@
                         font-weight: 500;
                     }
                 }
+
                 .show {
                     // max-height: 300px;
                     display: flex;
                     transition: max-height 0.3s ease-in;
                 }
+
                 .hide {
                     display: none;
                     max-height: 0;
                     transition: max-height 0.3s ease-out;
                 }
+
                 .icon-flipped {
                     -moz-transform: scaleX(-1);
                     -webkit-transform: scaleX(-1);
@@ -260,6 +266,29 @@
                 z-index: 5;
                 width: 4.625rem;
                 height: 6.5rem;
+            }
+
+            .circle {
+                top: -22px;
+                left: -1px;
+                position: absolute;
+                height: 420px;
+
+                .ellipse {
+                    position: absolute;
+                    top: 130px;
+                    left: 151px;
+                    border-radius: 50%;
+                    background-color: #454545;
+                    width: 119.84px;
+                    height: 119.84px;
+                }
+
+                .blast {
+                    position: absolute;
+                    top: 162px;
+                    left: 186px;
+                }
             }
 
             .righthand {
@@ -943,7 +972,8 @@
             top: 13.4375rem;
             right: 8rem;
         }
-        .blink{
+
+        .blink {
             visibility: hidden;
         }
     }
@@ -1215,7 +1245,7 @@
                         .faq-question {
                             display: flex;
                             gap: 5.625rem;
-
+                            cursor: pointer;
                             p {
                                 color: #000;
                                 font-family: Manrope;
@@ -1226,6 +1256,9 @@
                                 /* 100% */
 
                             }
+                        }
+                        .faq-content{
+                            display: none;
                         }
                     }
                 }

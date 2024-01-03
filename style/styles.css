@@ -223,6 +223,26 @@
   width: 4.625rem;
   height: 6.5rem;
 }
+.section1 .content .content-img .circle {
+  top: -22px;
+  left: -1px;
+  position: absolute;
+  height: 420px;
+}
+.section1 .content .content-img .circle .ellipse {
+  position: absolute;
+  top: 130px;
+  left: 151px;
+  border-radius: 50%;
+  background-color: #454545;
+  width: 119.84px;
+  height: 119.84px;
+}
+.section1 .content .content-img .circle .blast {
+  position: absolute;
+  top: 162px;
+  left: 186px;
+}
 .section1 .content .content-img .righthand {
   position: relative;
   top: 11.875rem;
@@ -1035,6 +1055,7 @@
 .faq .faq-section .faq-part .uniter .faq-container .faq-card .faq-question {
   display: flex;
   gap: 5.625rem;
+  cursor: pointer;
 }
 .faq .faq-section .faq-part .uniter .faq-container .faq-card .faq-question p {
   color: #000;
@@ -1044,6 +1065,9 @@
   font-weight: 800;
   line-height: 1.375rem;
   /* 100% */
+}
+.faq .faq-section .faq-part .uniter .faq-container .faq-card .faq-content {
+  display: none;
 }
 .faq .faq-section .email {
   width: 25.0625rem;
