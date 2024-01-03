@@ -32,6 +32,7 @@
   width: 21.875rem;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .section1 .navbar .menu .menu-items {
   display: flex;
@@ -39,9 +40,57 @@
   list-style: none;
   justify-content: space-around;
 }
+.section1 .navbar .menu .menu-items > li :hover {
+  color: blue;
+}
 .section1 .navbar .menu .menu-items .dropdown {
   display: flex;
   gap: 0.9375rem;
+  align-items: center;
+}
+.section1 .navbar .menu .menu-items .dropdown img {
+  width: 1.1875rem;
+  height: 0.5625rem;
+}
+.section1 .navbar .menu .menu-items .product-drop {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  left: 10px;
+  top: 29px;
+  padding-bottom: 20px;
+}
+.section1 .navbar .menu .menu-items .product-drop a {
+  text-decoration: none;
+  color: black;
+  font-family: manrope;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.section1 .navbar .menu .menu-items .template-drop {
+  display: none;
+  position: absolute;
+  top: 29px;
+  left: 124px;
+  flex-direction: column;
+}
+.section1 .navbar .menu .menu-items .template-drop a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: manrope;
+  font-size: 14px;
+  font-weight: 500;
+}
+.section1 .navbar .menu .menu-items .show {
+  display: flex;
+  transition: max-height 0.3s ease-in;
+}
+.section1 .navbar .menu .menu-items .hide {
+  display: none;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
 }
 .section1 .navbar li a {
   text-decoration: none;
@@ -82,6 +131,10 @@
   display: flex;
   align-items: flex-end;
   margin: 0rem 1rem 0rem 0px;
+}
+.section1 .content .dotted-left img {
+  width: 4.625rem;
+  height: 6.5rem;
 }
 .section1 .content .content-text {
   width: 40.375rem;
@@ -126,6 +179,10 @@
   gap: 0.6875rem;
   letter-spacing: -0.34px;
 }
+.section1 .content .content-text .content-btn .see-link img {
+  height: 3.75rem;
+  width: 3.75rem;
+}
 .section1 .content .content-text .checkboxes {
   display: flex;
   gap: 2.5rem;
@@ -148,17 +205,23 @@
   top: 1.125rem;
   left: -4.6875rem;
   z-index: 10;
+  width: 17.625rem;
+  height: 55.6875rem;
 }
 .section1 .content .content-img .dashsvg {
   position: absolute;
   top: 30rem;
   left: 10.0625rem;
   z-index: 5;
+  width: 4.625rem;
+  height: 6.5rem;
 }
 .section1 .content .content-img .righthand {
   position: relative;
   top: 11.875rem;
   left: 0rem;
+  width: 23.25rem;
+  height: 43.5rem;
 }
 .section1 .content .dotted-right {
   display: flex;
@@ -1303,8 +1366,32 @@ footer .copyright {
   border: 0;
 }
 
-@media only screen and (max-width: 1400px) {
-  .container {
-    background-color: red;
+@media only screen and (max-width: 1350px) {
+  .section1 .content .content-img {
+    position: relative;
+    left: 8.6875rem;
+  }
+}
+@media only screen and (max-width: 932px) {
+  html {
+    font-size: 12px;
+  }
+  .section1 {
+    overflow: hidden;
+  }
+  .section1 .content .content-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+  .section1 {
+    overflow-x: hidden;
+  }
+  .section1 .content .content-img {
+    position: relative;
+    left: 5.6875rem;
   }
 }/*# sourceMappingURL=styles.css.map */

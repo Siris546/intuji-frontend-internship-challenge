@@ -37,18 +37,72 @@
             width: 21.875rem;
             display: flex;
             justify-content: center;
+            position: relative;
 
             .menu-items {
                 display: flex;
                 width: 100%;
                 list-style: none;
                 justify-content: space-around;
-
+                > li{
+                    :hover{
+                        color: blue;
+                    }
+                }
                 .dropdown {
                     display: flex;
                     gap: 0.9375rem;
+                    align-items: center;
 
+                    img {
+                        width: 1.1875rem;
+                        height: 0.5625rem;
+                    }
+                }
 
+                .product-drop {
+                    position: absolute;
+                    display: none;
+                    flex-direction: column;
+                    left: 10px;
+                    top: 29px;
+                    padding-bottom: 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-family: manrope;
+                        font-size: 14px;
+                        font-weight: 500;
+                        padding-bottom: 10px;
+                    }
+                }
+
+                .template-drop {
+                    display: none;
+                    position: absolute;
+                    top: 29px;
+                    left: 124px;
+                    flex-direction: column;
+
+                    a {
+                        padding-bottom: 10px;
+                        text-decoration: none;
+                        color: black;
+                        font-family: manrope;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .show {
+                    // max-height: 300px;
+                    display: flex;
+                    transition: max-height 0.3s ease-in;
+                }
+                .hide {
+                    display: none;
+                    max-height: 0;
+                    transition: max-height 0.3s ease-out;
                 }
             }
         }
@@ -100,6 +154,11 @@
             display: flex;
             align-items: flex-end;
             margin: 0rem 1rem 0rem 0px;
+
+            img {
+                width: 4.625rem;
+                height: 6.5rem;
+            }
         }
 
         .content-text {
@@ -147,6 +206,11 @@
                     font-weight: 500;
                     gap: 0.6875rem;
                     letter-spacing: -0.34px;
+
+                    img {
+                        height: 3.75rem;
+                        width: 3.75rem;
+                    }
                 }
             }
 
@@ -175,6 +239,8 @@
                 top: 1.125rem;
                 left: -4.6875rem;
                 z-index: 10;
+                width: 17.625rem;
+                height: 55.6875rem;
             }
 
             .dashsvg {
@@ -182,12 +248,16 @@
                 top: 30rem;
                 left: 10.0625rem;
                 z-index: 5;
+                width: 4.625rem;
+                height: 6.5rem;
             }
 
             .righthand {
                 position: relative;
                 top: 11.875rem;
                 left: 0rem;
+                width: 23.25rem;
+                height: 43.5rem;
             }
 
         }
@@ -1510,12 +1580,40 @@ footer {
     border: 0;
 }
 
-@media only screen and (max-width: 1400px) {
-    .container{
-        background-color: red;
+@media only screen and (max-width:1350px) {
+    .section1 .content .content-img {
+        position: relative;
+        left: 8.6875rem;
     }
 }
-@media only screen and (max-width: 1253px) {
-    
+
+@media only screen and (max-width:932px) {
+    html {
+        font-size: 12px;
+    }
+
+    .section1 {
+        overflow: hidden;
+    }
+
+    .section1 .content .content-img {
+        display: none;
+    }
 }
 
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+
+    .section1 {
+        overflow-x: hidden;
+
+        .content {
+            .content-img {
+                position: relative;
+                left: 5.6875rem;
+            }
+        }
+    }
+}
