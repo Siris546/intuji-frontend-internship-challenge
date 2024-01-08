@@ -955,6 +955,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #FFF;
+  gap: 15rem;
 }
 .blogs .blog-banner .banner-text {
   color: #000;
@@ -971,7 +972,6 @@
   font-size: 1.8125rem;
   font-weight: 700;
   letter-spacing: -0.58px;
-  width: 32.75rem;
   margin: 0.625rem 0 3.625rem 0;
 }
 .blogs .blog-banner .banner-text a {
@@ -1142,7 +1142,6 @@ footer .footer-banner {
   text-align: center;
   border-radius: 1.25rem;
   background: var(--Pallet-4-Primary, #3734A9);
-  width: 75rem;
   height: 27.375rem;
   flex-shrink: 0;
   display: flex;
@@ -1150,7 +1149,6 @@ footer .footer-banner {
   justify-content: center;
 }
 footer .footer-banner h2 {
-  width: 47.6875rem;
   color: #FFF;
   text-align: center;
   font-family: Manrope;
@@ -1180,12 +1178,12 @@ footer .footer-banner .cta button {
   letter-spacing: -0.36px;
 }
 footer .footer-menu {
-  width: 75.125rem;
-  height: 17.8125rem;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 9.375rem;
+  padding-bottom: 3.125rem;
 }
 footer .footer-menu .intro {
   display: flex;
@@ -1426,10 +1424,23 @@ footer .copyright {
   border: 0;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1250px) {
   .section1 .content .content-img {
     position: relative;
     left: 8.6875rem;
+  }
+  .faq .faq-section .faq-part {
+    width: 42.625rem;
+  }
+  .blogs .blog-banner {
+    gap: 5rem;
+  }
+  .blogs .blog-banner .banner-img {
+    width: 21.1875rem;
+    height: 17.8125rem;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 0rem 0.625rem 0.625rem 0;
   }
 }
 @media only screen and (max-width: 932px) {
@@ -1481,6 +1492,9 @@ footer .copyright {
     width: 6.5625rem;
     height: 2.25rem;
   }
+  .section1 .content .content-text h1 {
+    margin-top: 1.8rem;
+  }
   .section1 .content .content-img {
     display: none;
   }
@@ -1502,6 +1516,9 @@ footer .copyright {
   }
   .section1 {
     overflow-x: hidden;
+  }
+  .section1 .content .content-text h1 {
+    margin-top: 1.8rem;
   }
   .section1 .content .content-img {
     position: relative;
@@ -1577,6 +1594,7 @@ footer .copyright {
   }
   .blogs .blog-banner {
     align-items: center;
+    gap: 1rem;
   }
   .blogs .blog-banner .banner-text {
     font-size: 1rem;
