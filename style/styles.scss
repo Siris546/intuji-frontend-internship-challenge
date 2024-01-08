@@ -55,7 +55,6 @@
                         color: blue;
                     }
                 }
-
                 .dropdown {
                     display: flex;
                     gap: 0.9375rem;
@@ -1612,6 +1611,21 @@ footer {
     line-height: normal;
     text-transform: uppercase;
 }
+.burger{
+    position: absolute;
+    top:0.5%;
+    right: 3%;
+    cursor: pointer;
+    display: none;
+    margin: 0.2rem;
+}
+.line{
+    width: 25px;
+    margin: 6px 0px;
+    background-color: white;
+    height: 3px;
+    
+}
 
 ::placeholder {
     opacity: 0.2;
@@ -1635,15 +1649,72 @@ footer {
 
 @media only screen and (max-width:932px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .section1 {
         overflow: hidden;
+        .navbar{
+            height: 21rem;
+            flex-direction: column;
+            transition: all 0.7s ease-out;
+            position: static;
+            display: flex;
+            justify-content: space-around;
+            padding: 2.375rem 3rem;
+            align-items: flex-start;
+            .menu{
+
+                .menu-items{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 0.5rem;
+                    >li{
+                        margin-top: 0.5rem;
+                    }
+                    .product-drop{
+                        position: static;
+                        padding: 10px 0 0 5px ;
+                        a{
+                            font-size: 12px;
+                            padding: 0;
+                        }
+                    }
+                    .template-drop{
+                        position: static;
+                        padding: 10px 0 0 5px ;
+                        a{
+                            font-size: 12px;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+            .signup{
+                width: 12.625rem;
+                .menu-btn{
+                    width: 6.5625rem;
+                    height: 2.25rem;
+                }
+            }
+        }
     }
 
     .section1 .content .content-img {
         display: none;
+    }
+    
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 3rem !important;
+    }
+    .v-class-resp{
+        opacity: 0%;
+        display: none !important;
+        width: 0;
     }
 }
 
