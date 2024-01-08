@@ -14,9 +14,9 @@
 
 .section1 {
   background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
-  height: 55rem;
   position: relative;
   overflow: hidden;
+  padding-bottom: 4rem;
 }
 .section1 .navbar {
   display: flex;
@@ -206,6 +206,7 @@
 .section1 .content .content-img {
   position: relative;
   left: 0.6875rem;
+  bottom: 0;
 }
 .section1 .content .content-img .lefthand {
   position: absolute;
@@ -288,6 +289,7 @@
   display: flex;
   justify-content: center;
   gap: 3.125rem;
+  flex-wrap: wrap;
 }
 .clients .clients-logos img {
   -o-object-fit: contain;
@@ -302,7 +304,7 @@
 }
 .section2 .section-heading {
   display: flex;
-  display: flex;
+  flex-wrap: wrap;
   gap: 5.3125rem;
 }
 .section2 .section-heading .heading h2 {
@@ -349,7 +351,7 @@
 }
 .section2 .value-props {
   display: flex;
-  width: 75rem;
+  flex-wrap: wrap;
   margin-top: 4.6875rem;
   gap: 1.875rem;
 }
@@ -405,6 +407,7 @@
 .section2 .section-content {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 5.625rem;
   gap: 10rem;
 }
@@ -501,9 +504,11 @@
 }
 .section2 .section-content2 {
   display: flex;
+  flex-wrap: wrap;
   padding: 12.375rem 0 6rem 0;
   position: relative;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 10rem;
   width: 100%;
 }
 .section2 .section-content2 .content .testemonial {
@@ -728,6 +733,7 @@
 .feature .feature-heading .feature-container {
   display: flex;
   gap: 1.9375rem;
+  flex-wrap: wrap;
   margin-top: 3.1875rem;
 }
 .feature .feature-heading .feature-container .feature-card {
@@ -825,6 +831,7 @@
 }
 #testimonial .testimonial-container {
   display: flex;
+  flex-wrap: wrap;
 }
 #testimonial .boy {
   position: relative;
@@ -898,6 +905,7 @@
 }
 .company-stats .statistics {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 5.8125rem;
   padding-left: 4.375rem;
@@ -980,6 +988,7 @@
 }
 .blogs .blog-container {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 1.8125rem;
   justify-content: space-between;
 }
@@ -1036,6 +1045,7 @@
 }
 .faq .faq-section .faq-part .uniter {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 3.125rem;
   margin-top: 4.5rem;
@@ -1496,5 +1506,115 @@ footer .copyright {
   .section1 .content .content-img {
     position: relative;
     left: 5.6875rem;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.9375rem 2.6875rem 0rem 1.6875rem;
+  }
+  .section2 .section-heading {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5.3125rem;
+  }
+  .section2 .section-heading .heading h2 {
+    width: 37.875rem;
+  }
+  .section2 .section-content .usercard {
+    width: 29.1875rem;
+  }
+  .section2 .section-content .usercard .paymentbox {
+    width: 18.0625rem;
+  }
+  .section2 .section-content2 .graphics .graphics-container .stats {
+    bottom: 2.25rem;
+    left: 1.625rem;
+  }
+  .section2 .section-content2 .graphics .graphics-container .handright {
+    height: 43rem;
+  }
+  .feature {
+    padding: 4.125rem 1.3125rem 4.5625rem 1.6875rem;
+  }
+  .feature .feature-heading p {
+    width: 23.8125rem;
+  }
+  .feature .horizontaldash {
+    display: none;
+  }
+  #testimonial {
+    padding: 3.375rem 0 3.375rem 1.4375rem;
+  }
+  #testimonial .testimonial-heading .swingsvg {
+    display: none;
+  }
+  #testimonial .testimonial-card {
+    width: 28.6875rem;
+    height: 22rem;
+  }
+  #testimonial .testimonial-card .testimonial-text h4 {
+    width: 17rem;
+    font-size: 1.2rem;
+  }
+  #testimonial .testimonial-card .testimonial-text p {
+    font-size: 1rem;
+  }
+  #testimonial .testimonial-card .girltestimonial {
+    width: 9rem;
+  }
+  #testimonial .boy {
+    left: 2.9375rem;
+  }
+  .company-stats .stats-text {
+    margin: auto 2.1875rem auto 2.3125rem;
+  }
+  .blogs {
+    margin: 6.3125rem 0.375rem 6.375rem 1.4375rem;
+  }
+  .blogs .recent-blogs {
+    margin-bottom: 2.5rem;
+  }
+  .blogs .blog-banner {
+    align-items: center;
+  }
+  .blogs .blog-banner .banner-text {
+    font-size: 1rem;
+    padding: 0.125rem 0.75rem;
+  }
+  .blogs .blog-banner .banner-text .title {
+    font-size: 1rem;
+    width: 13.75rem;
+  }
+  .blogs .blog-banner .banner-img {
+    width: 15.1875rem;
+    height: 7.8125rem;
+  }
+  .faq .faq-section .faq-part {
+    width: 48.625rem;
+  }
+  .faq .faq-section .faq-part .faq-heading {
+    font-size: 3.4375rem;
+  }
+  .faq .faq-section .faq-part .uniter .faq-container .faq-card {
+    width: 27.9375rem;
+  }
+  footer {
+    padding: 5.375rem 0.6875rem 0 0.6875rem;
+  }
+  footer .footer-banner {
+    width: 31rem;
+    height: 19.375rem;
+  }
+  footer .footer-banner h2 {
+    font-size: 2.5rem;
+    width: 26.6875rem;
+  }
+  footer .footer-menu {
+    margin-top: 7.375rem;
+    width: 22.125rem;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
   }
 }/*# sourceMappingURL=styles.css.map */
